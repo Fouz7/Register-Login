@@ -1,0 +1,28 @@
+{
+    "navbar": {
+      "register": "Register",
+      "language": "Language",
+      "english": "English",
+      "indonesia": "Indonesia",
+      "login": "Login"
+    },
+
+    "register":{
+        "register":"Register Here",
+        "fullname":"Full name",
+        "email":"Email",
+        "password":"Password",
+        "confirmPassword": "Confirm Password",
+        "submit": "Submit",
+        "!match": "Password doesn't match",
+        "success": "Register Success"
+    },
+
+    "login":{
+        "login":"Login Here",
+        "e/u":"Email or Username",
+        "password":"Password",
+        "submit": "Login",
+        "success": "Login Success"
+    }
+  }

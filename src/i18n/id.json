@@ -1,0 +1,29 @@
+{
+    "navbar": {
+      "register": "Daftar",
+      "language": "Bahasa",
+      "english": "Inggris",
+      "indonesia": "Indonesia",
+      "login": "Masuk"
+    },
+
+    "register":{
+        "register":"Daftar Disini",
+        "fullname":"Nama Lengkap",
+        "email":"Email",
+        "password":"Kata Sandi",
+        "confirmPassword": "Konfirmasi Kata Sandi",
+        "submit": "Daftar",
+        "!match": "Kata Sandi Tidak Sama",
+        "success": "Berhasil Daftar"
+
+    },
+
+    "login":{
+        "login":"Masuk Disini",
+        "e/u":"Email atau Username",
+        "password":"Kata Sandi",
+        "submit": "Masuk",
+        "success": "Berhasil Masuk"
+    }
+  }
