@@ -39,28 +39,28 @@ const Register = ({t, onClose, openSuccess}) => {
                             placeholder={t('register.fullname')}
                             required
                             onChange={(e) => setData((value) => ({...value, fullname: e.target.value}))}
-                            className='bg-stone-300 text-stone-700 focus:outline-none rounded-sm p-0.5'
+                            className='bg-stone-300 text-stone-700 text-xl lg:text-base focus:outline-none rounded-sm p-0.5'
                         />
                         <input 
                             type='email' 
                             placeholder={t('register.email')}
                             required
                             onChange={(e) => setData((value) => ({...value, email: e.target.value}))}
-                            className='bg-stone-300 text-stone-700 focus:outline-none rounded-sm p-0.5'
+                            className='bg-stone-300 text-stone-700 text-xl lg:text-base focus:outline-none rounded-sm p-0.5'
                         />
                         <input
                             type='password'
                             placeholder={t('register.password')}
                             required
                             onChange={(e) => setData((value) => ({...value, password: e.target.value}))}
-                            className='bg-stone-300 text-stone-700 focus:outline-none rounded-sm p-0.5'
+                            className='bg-stone-300 text-stone-700 text-xl lg:text-base focus:outline-none rounded-sm p-0.5'
                         />
                         <input
                             type='password'
                             placeholder={t('register.confirmPassword')}
                             required
                             onChange={(e) => setData((value) => ({...value, confirmPassword: e.target.value}))}
-                            className='bg-stone-300 text-stone-700 focus:outline-none rounded-sm p-0.5'
+                            className='bg-stone-300 text-stone-700 text-xl lg:text-base focus:outline-none rounded-sm p-0.5'
                         />
                         {error && <p className="text-red-500 text-xs">{error}</p>}
                         <div className='text-center'>
